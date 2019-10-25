@@ -9,6 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <title>Account section (Netflix)</title>
     <style>
+        .footer-p{
+            color: rgb(153, 153, 153);
+        }
+        .footer-p:hover{
+            color: rgb(153, 153, 153);
+            text-decoration: underline;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
             background-color: #F3F3F3;
@@ -55,6 +62,9 @@
         #cancel{
             font-family: 'Quicksand', sans-serif;
             font-size: 14px;
+        }
+        #last-button{
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -237,13 +247,61 @@
                 </div>
             </div>
         </div>
-        <footer>
-
-        </footer>
     </div>
+    <hr class="my-5">
+    <footer>
+        <div class="container">
+            <div class="row px-3" style="margin-bottom: 30px;">
+                <a id="questions" class="footer-p" href="">Questions? Contact us.</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Audio and Subtitles</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Media Center</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Privacy Statement</a>
+                    </div>
+                    <br>
+                </div>    
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Help Center</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Jobs</p>
+                    </div>
+                </div>   
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Gift Cards</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Cookie Preferences</a>
+                    </div>
+                </div>   
+                <div class="col-sm-3 col-6">
+                    <div>
+                        <a href="" class="footer-p">Investor Relations</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Media Center</a>
+                    </div>
+                    <div>
+                        <a href="" class="footer-p">Terms of Use</a>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+        <button style="color:rgb(165, 165, 165) outline: none; border-radius: 4px; background: #F3F3F3; box-shadow: none; border: 0.5px solid rgb(102, 102, 102); margin-bottom: 30px" id="last-button" class="mx-5"><span id="btnSpan">Service Code</span></button>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
